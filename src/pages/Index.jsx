@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box bg="gray.800" color="white" py={4}>
+      <Box bg="#003366" color="white" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Heading as="h1" size="lg">Financial Times</Heading>
           <HStack spacing={4}>
@@ -40,11 +40,11 @@ const Index = () => {
         {/* Sidebar */}
         <Box flex="1" mt={{ base: 8, md: 0 }}>
           <VStack spacing={8} align="stretch">
-            <Box bg="gray.100" p={4}>
+            <Box bg="#F3F3F3" p={4}>
               <Heading as="h3" size="sm">Advertisement</Heading>
               <Image src="https://via.placeholder.com/300x250" alt="Ad Image" mt={4} />
             </Box>
-            <Box bg="gray.100" p={4}>
+            <Box bg="#F3F3F3" p={4}>
               <Heading as="h3" size="sm">Follow Us</Heading>
               <HStack spacing={4} mt={4}>
                 <Link href="#"><FaTwitter size="24" /></Link>
